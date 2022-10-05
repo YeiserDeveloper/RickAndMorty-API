@@ -45,21 +45,21 @@ const getFetch = async (search) => {
                         <div class="card-body">
                             <h1 class="text-2xl text-center font-bold">${card.name}</h1>
                             <p class="text-md ${card.status === "Alive" ? "text-success" : card.status === "Dead" ? "text-error" : card.status === "unknown" ? "text-warning" : "text-danger"}">
-                                <span class="text-md font-bold">Status:</span> ${card.status}
+                                <span class="text-md font-bold">Status: ${card.status === "Alive" ? "✅" : card.status === "Dead" ? "☠" : card.status === "unknown" ? "⚠" : "⚠"}</span> ${card.status}
                             </p>
                             <p class="text-md">
-                                <span class="text-md font-bold">Specie:</span> ${card.species}
+                                <span class="text-md font-bold">Specie: ${card.species === "Human" ? "🚶" : "👽"}</span> ${card.species}
                             </p>
                             <p class="text-md">
-                                <span class="text-md font-bold">Gender:</span> ${card.gender}
+                                <span class="text-md font-bold">Gender: ${card.gender === "Male" ? "♂" : "♀"}</span> ${card.gender}
                             </p>
                             <p class="text-md">
-                                <span class="text-md font-bold">Origin:</span> ${card.origin.name}</p>
+                                <span class="text-md font-bold">Origin: ${card.origin.name === "unknown" ? "❔" : ""}</span> ${card.origin.name}</p>
                             <p class="text-md">
                                 <span class="text-md font-bold">Location:</span> ${card.location.name}
                             </p>
                             <!--<p class="text-md">
-                                <span class="text-md font-bold">Created:</span> ${card.created}
+                                <span class="text-md font-bold">Created: </span> ${card.created}
                             </p>-->
                         </div>
 					</div>
