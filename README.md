@@ -1,4 +1,4 @@
-# [RickAndMorty-API](https://github.com/YeiserDeveloper/RickAndMorty-API)
+# [RickAndMorty-API](https://squeamish-morty.surge.sh/)
 
 ![Screenshots](./img/screenshots.png)
 
