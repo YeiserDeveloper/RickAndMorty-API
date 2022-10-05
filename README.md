@@ -1,14 +1,5 @@
 # [RickAndMorty-API](https://github.com/YeiserDeveloper/RickAndMorty-API)
 
-## Indice
-
-1. [Screenshots](#screenshots)
-2. [Mi proseso](#mi-proceso)
-3. [Gracias](#gracias)
-4. [Redes](#redes)
-
-## Screenshots
-
 ![Screenshots](./img/screenshots.png)
 
 ## Mi proceso
